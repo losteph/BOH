@@ -1,0 +1,80 @@
+[
+  {
+    "nome": "I Titanici",
+    "rosa": [
+      { "nome": "Marco Donati", "ruolo": "Portiere" },
+      { "nome": "Luca Costa", "ruolo": "Difensore" },
+      { "nome": "Simone Rizzo", "ruolo": "Difensore" },
+      { "nome": "Andrea Serra", "ruolo": "Difensore" },
+      { "nome": "Paolo Bellini", "ruolo": "Difensore" },
+      { "nome": "Francesco Gallo", "ruolo": "Centrocampista" },
+      { "nome": "Davide Marini", "ruolo": "Centrocampista" },
+      { "nome": "Matteo Valli", "ruolo": "Attaccante" }
+    ]
+  },
+  {
+    "nome": "I Gladiatori",
+    "rosa": [
+      { "nome": "Alessandro Ferrari", "ruolo": "Portiere" },
+      { "nome": "Stefano Conti", "ruolo": "Difensore" },
+      { "nome": "Giuseppe Greco", "ruolo": "Difensore" },
+      { "nome": "Roberto Mancini", "ruolo": "Difensore" },
+      { "nome": "Fabio Moretti", "ruolo": "Difensore" },
+      { "nome": "Antonio Romano", "ruolo": "Centrocampista" },
+      { "nome": "Nicola Barbieri", "ruolo": "Centrocampista" },
+      { "nome": "Giovanni Bruno", "ruolo": "Attaccante" }
+    ]
+  },
+  {
+    "nome": "Real Scommessa",
+    "rosa": [
+      { "nome": "Daniele Leone", "ruolo": "Portiere" },
+      { "nome": "Lorenzo Martino", "ruolo": "Difensore" },
+      { "nome": "Enrico Palmieri", "ruolo": "Difensore" },
+      { "nome": "Christian Santoro", "ruolo": "Difensore" },
+      { "nome": "Valerio D'Amico", "ruolo": "Centrocampista" },
+      { "nome": "Emanuele Fontana", "ruolo": "Centrocampista" },
+      { "nome": "Salvatore Esposito", "ruolo": "Attaccante" },
+      { "nome": "Ciro Russo", "ruolo": "Attaccante" }
+    ]
+  },
+  {
+    "nome": "Centrocampo Forte",
+    "rosa": [
+      { "nome": "Federico Gatti", "ruolo": "Portiere" },
+      { "nome": "Giorgio Farina", "ruolo": "Difensore" },
+      { "nome": "Davide Villa", "ruolo": "Difensore" },
+      { "nome": "Samuele De Luca", "ruolo": "Difensore" },
+      { "nome": "Lorenzo Pellegrini", "ruolo": "Centrocampista" },
+      { "nome": "Tommaso Bianchi", "ruolo": "Centrocampista" },
+      { "nome": "Matteo Ricci", "ruolo": "Centrocampista" },
+      { "nome": "Andrea Colombo", "ruolo": "Attaccante" }
+    ]
+  },
+  {
+    "nome": "L'Equilibrio",
+    "rosa": [
+      { "nome": "Francesco Caputo", "ruolo": "Portiere" },
+      { "nome": "Marco Silvestri", "ruolo": "Portiere" },
+      { "nome": "Michele Giordano", "ruolo": "Difensore" },
+      { "nome": "Alberto Lombardi", "ruolo": "Difensore" },
+      { "nome": "Claudio Mariani", "ruolo": "Difensore" },
+      { "nome": "Simone Testa", "ruolo": "Centrocampista" },
+      { "nome": "Luigi Grasso", "ruolo": "Centrocampista" },
+      { "nome": "Samuele Longo", "ruolo": "Attaccante" }
+    ]
+  },
+  {
+    "nome": "I Bomber",
+    "rosa": [
+      { "nome": "Federico Marchetti", "ruolo": "Portiere" },
+      { "nome": "Matteo Rinaldi", "ruolo": "Difensore" },
+      { "nome": "Ciro Ferrara", "ruolo": "Difensore" },
+      { "nome": "Leonardo Vitali", "ruolo": "Difensore" },
+      { "nome": "Nicolò Sanna", "ruolo": "Centrocampista" },
+      { "nome": "Riccardo Monti", "ruolo": "Centrocampista" },
+      { "nome": "Ciro Immobile", "ruolo": "Attaccante" },
+      { "nome": "Antonio Caputo", "ruolo": "Attaccante" }
+    ]
+  }
+]

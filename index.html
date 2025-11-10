@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneo - Classifica</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1>Torneo di Calcio</h1>
+            <nav>
+                <a href="index.html">Classifica</a>
+                <a href="partite.html">Partite</a>
+                <a href="marcatori.html">Marcatori</a>
+                <a href="squadre.html">Squadre</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Classifica</h2>
+        <table id="tabella-classifica">
+            <thead>
+                <tr>
+                    <th>Pos</th>
+                    <th>Squadra</th>
+                    <th>Pt</th>
+                    <th>G</th>
+                    <th>V</th>
+                    <th>N</th>
+                    <th>S</th>
+                    <th>GF</th>
+                    <th>GS</th>
+                    <th>DR</th>
+                </tr>
+            </thead>
+            <tbody id="corpo-classifica">
+                <tr><td colspan="10">Caricamento...</td></tr>
+            </tbody>
+        </table>
+
+        <footer class="legenda">
+            <h3>Legenda e Calcolo Punti</h3>
+            <p><strong>Pt:</strong> Punti (Vittoria: 3 punti | Pareggio: 1 punto | Sconfitta: 0 punti)</p>
+            <p><strong>G:</strong> Partite Giocate</p>
+            <p><strong>V:</strong> Vittorie</p>
+            <p><strong>N:</strong> Pareggi</p>
+            <p><strong>S:</strong> Sconfitte</p>
+            <p><strong>GF:</strong> Goal Fatti</p>
+            <p><strong>GS:</strong> Goal Subiti</p>
+            <p><strong>DR:</strong> Differenza Reti (GF - GS)</p>
+        </footer>
+    </main>
+
+    <script src="js/classifica.js"></script>
+</body>
+</html>

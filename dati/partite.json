@@ -1,0 +1,137 @@
+[
+  {
+    "giornata": 1,
+    "squadraCasa": "I Titanici",
+    "squadraOspite": "I Bomber",
+    "golCasa": 2,
+    "golOspite": 1,
+    "status": "giocata",
+    "data": "Sab 15/11", "ora": "18:00"
+  },
+  {
+    "giornata": 1,
+    "squadraCasa": "I Gladiatori",
+    "squadraOspite": "L'Equilibrio",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 15/11", "ora": "19:00"
+  },
+  {
+    "giornata": 1,
+    "squadraCasa": "Real Scommessa",
+    "squadraOspite": "Centrocampo Forte",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 15/11", "ora": "20:00"
+  },
+  {
+    "giornata": 2,
+    "squadraCasa": "I Bomber",
+    "squadraOspite": "Centrocampo Forte",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 22/11", "ora": "18:00"
+  },
+  {
+    "giornata": 2,
+    "squadraCasa": "L'Equilibrio",
+    "squadraOspite": "Real Scommessa",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 22/11", "ora": "19:00"
+  },
+  {
+    "giornata": 2,
+    "squadraCasa": "I Titanici",
+    "squadraOspite": "I Gladiatori",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 22/11", "ora": "20:00"
+  },
+  {
+    "giornata": 3,
+    "squadraCasa": "I Gladiatori",
+    "squadraOspite": "I Bomber",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 29/11", "ora": "18:00"
+  },
+  {
+    "giornata": 3,
+    "squadraCasa": "Real Scommessa",
+    "squadraOspite": "I Titanici",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 29/11", "ora": "19:00"
+  },
+  {
+    "giornata": 3,
+    "squadraCasa": "Centrocampo Forte",
+    "squadraOspite": "L'Equilibrio",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 29/11", "ora": "20:00"
+  },
+  {
+    "giornata": 4,
+    "squadraCasa": "I Bomber",
+    "squadraOspite": "L'Equilibrio",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 06/12", "ora": "18:00"
+  },
+  {
+    "giornata": 4,
+    "squadraCasa": "I Titanici",
+    "squadraOspite": "Centrocampo Forte",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 06/12", "ora": "19:00"
+  },
+  {
+    "giornata": 4,
+    "squadraCasa": "I Gladiatori",
+    "squadraOspite": "Real Scommessa",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 06/12", "ora": "20:00"
+  },
+  {
+    "giornata": 5,
+    "squadraCasa": "Real Scommessa",
+    "squadraOspite": "I Bomber",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 13/12", "ora": "18:00"
+  },
+  {
+    "giornata": 5,
+    "squadraCasa": "Centrocampo Forte",
+    "squadraOspite": "I Gladiatori",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 13/12", "ora": "19:00"
+  },
+  {
+    "giornata": 5,
+    "squadraCasa": "L'Equilibrio",
+    "squadraOspite": "I Titanici",
+    "golCasa": null,
+    "golOspite": null,
+    "status": "da giocare",
+    "data": "Sab 13/12", "ora": "20:00"
+  }
+]

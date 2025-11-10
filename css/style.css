@@ -1,0 +1,209 @@
+/* Impostazioni Globali */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Contenitore principale per centrare il contenuto */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header e Navigazione */
+header {
+    background-color: #0a2f5c;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1a4a8a;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #2c6bc9;
+}
+
+/* Contenuto principale */
+main {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #0a2f5c;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+/* Stile Tabelle (Classifica e Marcatori) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead th {
+    background-color: #f8f8f8;
+    color: #555;
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* Colonne "Punti" e "Gol" in grassetto */
+table tbody td:nth-child(3) {
+    font-weight: bold;
+}
+/* Per Classifica Marcatori (il Gol è la 4a colonna) */
+#tabella-marcatori tbody td:nth-child(4) {
+    font-weight: bold;
+}
+
+/* --- Stile Pagina Partite (Aggiornato) --- */
+.match-list h3 {
+    color: #1a4a8a;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.match-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr; /* 2 parti squadra, 1 parte risultato */
+    align-items: center;
+    flex-grow: 1; /* Occupa lo spazio disponibile */
+}
+
+.match-squadra {
+    font-weight: bold;
+}
+
+.match-risultato {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0a2f5c;
+}
+
+.match-datetime {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 0.9em;
+    color: #555;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 1px solid #f0f0f0;
+    min-width: 100px;
+    text-align: right;
+}
+/* --- Fine Blocco Partite --- */
+
+
+/* Stile Pagina Squadre */
+#elenco-squadre {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.squadra-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.squadra-card h3 {
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.squadra-card ul {
+    list-style: none;
+    padding: 0 20px 20px 20px;
+    margin: 0;
+}
+
+.squadra-card li {
+    padding: 10px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+.squadra-card li em {
+    color: #555;
+    font-style: italic;
+    float: right;
+}
+
+/* Stile Legenda Classifica */
+.legenda {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #f0f0f0;
+    font-size: 0.9em;
+    color: #444;
+}
+.legenda h3 {
+    margin-top: 0;
+    color: #1a4a8a;
+    font-size: 1.2em;
+}
+.legenda p {
+    margin: 8px 0;
+}
+.legenda p strong {
+    color: #0a2f5c;
+    min-width: 35px;
+    display: inline-block;
+}
