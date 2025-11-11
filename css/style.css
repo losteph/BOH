@@ -207,3 +207,90 @@ table tbody td:nth-child(3) {
     min-width: 35px;
     display: inline-block;
 }
+
+
+/* --- INIZIO STILI RESPONSIVE PER MOBILE --- */
+
+@media (max-width: 600px) {
+
+    /* Riduci i titoli per non occupare troppo spazio */
+    header h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    
+    /* Riduci il padding generale */
+    .container {
+        padding: 0 10px;
+    }
+    main {
+        padding: 15px;
+    }
+
+    /* Menu di navigazione: impila i link verticalmente */
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        text-align: center;
+        padding: 12px 15px;
+        border-bottom: 1px solid #0a2f5c; /* Separa i link */
+    }
+    nav a:last-child {
+        border-bottom: none;
+    }
+
+    /* ----- LA PARTE PIÙ IMPORTANTE: Le Tabelle ----- */
+    /* Le tabelle (Classifica e Marcatori) sono troppo larghe.
+      Le forziamo a diventare un blocco che permette lo scroll
+      orizzontale solo se necessario. 
+    */
+    table {
+        display: block;
+        overflow-x: auto; /* Permette lo scroll orizzontale */
+        white-space: nowrap; /* Impedisce al testo di andare a capo */
+    }
+    table thead th,
+    table tbody td {
+        white-space: nowrap; /* Mantiene il contenuto delle celle su una riga */
+    }
+
+    /* Layout delle Partite: impila tutto */
+    .match {
+        flex-direction: column;
+        align-items: stretch; /* Fai in modo che gli elementi si allarghino */
+    }
+    .match-info {
+        grid-template-columns: 1fr; /* Una sola colonna */
+    }
+    .match-squadra {
+        text-align: center !important; /* Centra le squadre (l'!important serve per sovrascrivere lo stile inline) */
+    }
+    .match-risultato {
+        margin: 10px 0; /* Aggiungi spazio verticale */
+    }
+    .match-datetime {
+        /* Resetta il blocco data/ora */
+        width: 100%;
+        text-align: center;
+        border-left: none;
+        border-top: 1px solid #f0f0f0;
+        padding-top: 10px;
+        margin-top: 10px;
+        min-width: 0;
+        align-items: center;
+    }
+
+    /* Layout Squadre: forza una singola colonna */
+    #elenco-squadre {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Rendi la legenda più compatta */
+    .legenda p {
+        font-size: 0.85em;
+    }
+}
+/* --- FINE STILI RESPONSIVE PER MOBILE --- */
